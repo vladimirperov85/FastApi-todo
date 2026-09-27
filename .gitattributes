@@ -1,0 +1,25 @@
+* text=auto eol=lf
+
+# Python / uv — явно текстовые
+*.py    text eol=lf
+*.pyi   text eol=lf
+*.toml  text eol=lf
+*.md    text eol=lf
+*.txt   text eol=lf
+*.cfg   text eol=lf
+*.ini   text eol=lf
+
+# Бинарники — не трогать ни при каких условиях
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.webp  binary
+*.ico   binary
+*.pdf   binary
+*.whl   binary
+*.zip   binary
+*.pyd   binary
+*.dll   binary
+*.so    binary
+*.pyc   binary
