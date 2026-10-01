@@ -1,7 +1,7 @@
 [project]
 name = "fastapi-todo"
 version = "0.1.0"
-description = "Add your description here"
+description = "Минимальный CRUD-сервис списка задач на FastAPI (in-memory)"
 readme = "README.md"
 authors = [
     { name = "vladimirperov85", email = "vova.perov.85@gmail.com" }
