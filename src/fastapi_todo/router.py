@@ -11,7 +11,7 @@ router = APIRouter()
 _store = TodoStore()
 
 
-@router.get("/todos", response_model=list[Todo])
+@router.get("/todos", response_model=list[Todo], tags=["todos"])
 def list_todos() -> list[Todo]:
     """Возвращает все задачи."""
     return _store.list_all()
